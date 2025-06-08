@@ -1,0 +1,19 @@
+# ─── Core Dependencies ──────────────────────────────────────────────────────
+
+# PDF processing and manipulation library
+PyMuPDF>=1.23.0
+
+# ─── Development Dependencies ───────────────────────────────────────────────
+
+# Code formatting and linting
+black>=23.0.0
+flake8>=6.0.0
+
+# Testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# ─── Optional Dependencies ──────────────────────────────────────────────────
+
+# Enhanced logging and monitoring (optional)
+colorlog>=6.7.0
