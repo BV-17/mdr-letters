@@ -92,23 +92,25 @@ The system uses the following postal code logic for recipient determination:
 
 ```
 mdr_letters/
-├── README.md                    # Project documentation
-├── LICENSE                      # MIT licence
-├── requirements.txt             # Python dependencies
-├── .gitignore                   # Git ignore rules
-├── mdr_letters/                 # Main package directory
-│   ├── __init__.py             # Package initialisation
-│   ├── config.py               # Configuration constants
-│   ├── document_processor.py   # Main processing engine
-│   ├── file_manager.py         # File operations utilities
-│   ├── pdf_utils.py            # PDF processing utilities
-│   └── recipient_detector.py   # Recipient detection logic
-├── data/                        # Application data
-│   └── .gitkeep                # Keep directory in version control
-├── logs/                        # Application logs
-│   └── .gitkeep                # Keep directory in version control
-├── tests/                       # Unit tests (future implementation)
-└── mdr_letters_main.py         # Main application entry point
+│
+├── 📁 mdr_letters/           # Main package directory
+│   ├── __init__.py           # Package initialisation
+│   ├── config.py             # Configuration constants
+│   ├── document_processor.py # Main processing engine
+│   ├── file_manager.py       # File operations utilities
+│   ├── pdf_utils.py          # PDF processing utilities
+│   └── recipient_detector.py # Recipient detection logic
+│
+├── 📁 data/                  # Application data
+├── 📁 logs/                  # Application logs  
+├── 📁 tests/                 # Unit tests
+│
+├── 📄 README.md              # Project documentation
+├── 📄 LICENSE                # MIT licence
+├── 📄 CHANGELOG.md           # Version history
+├── 📄 requirements.txt       # Python dependencies
+├── 📄 .gitignore             # Git ignore rules
+└── 📄 mdr_letters_main.py    # Main application entry point
 ```
 
 ## Usage
